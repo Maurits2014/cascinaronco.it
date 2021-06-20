@@ -22,14 +22,15 @@ include __DIR__ . '/tpl/body-start.php';
 		crossorigin="anonymous">
 	</script>
 	<script>
-		$(function(){ $("head").load("./tpl/head.html") });
+		$(function(){
+			$("head").load("./tpl/head.html")
+			$("#main_nav").load("./tpl/nav.html")
+		});
 	</script>
 </head>
 
 <body>
-	<script>
-		$(function(){ $("head").load("./tpl/nav.html") });
-	</script>
+<div id="main_nav"></div>
 
 
 <div id="page_body">
