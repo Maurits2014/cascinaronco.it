@@ -25,14 +25,18 @@ include __DIR__ . '/tpl/body-start.php';
 	<script>
 		$(function(){
 			$("head").load("./tpl/head.html")
-			$("#main_nav").load("./tpl/nav.html")
+			//$("#main_nav").load("./tpl/nav.html")
 			//$("footer").load("./tpl/footer.html")
 		});
 	</script>
 </head>
 
 <body>
-<div id="main_nav"></div>
+<div id="main_nav">
+<script>
+	$(function(){ $("#main_nav").load("./tpl/nav.html") });
+</script>
+</div>
 
 
 <div id="page_body">
