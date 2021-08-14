@@ -47,6 +47,8 @@ div#main_nav_links {
 	flex-wrap: wrap;
 	margin: 0 auto; }
 
+div#main_nav_links a {
+	margin: 10; }
 
 span.ninethreezero {
   color: #993300;
